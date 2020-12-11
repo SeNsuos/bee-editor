@@ -1,0 +1,20 @@
+.preview_container{
+    width: 35vw;
+    min-height: 100vh;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    text-align: center;
+    h3{
+        width: 96%;
+        height: 70px;
+        margin: 0 auto;
+        line-height: 70px;
+        border-bottom: 1px solid #dddddd;
+        // background-color: red;
+    }
+    .con_wrapper{
+        width: 96%;
+        min-height: 80vh;
+        margin: 0 auto;
+    }
+}

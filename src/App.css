@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+
+}
+.con_wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +41,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.toLeft{
+  margin-left: 20px
+}
+.toRight{
+  margin-right: 20px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
 }
