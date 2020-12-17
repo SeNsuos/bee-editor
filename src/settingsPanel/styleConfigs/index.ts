@@ -23,7 +23,9 @@ const className = {
 	},
 }
 
-export default {
-    font,
+const style = {
+	font,
     className
 }
+
+export default style

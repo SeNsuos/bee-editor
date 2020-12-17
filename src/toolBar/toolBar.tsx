@@ -16,7 +16,7 @@ const ToolBar = () => {
     const classes = useStyles();
     return(
         <div className='toolBar_contaner'>
-           <div className={classes.root + ' ' + 'btn_wrapper'}>
+           <div className={`${classes.root} btn_wrapper`}>
                 <Button variant="contained" color="primary">保存</Button>
                 <Button variant="contained" color="primary">导出</Button>
                 <Button variant="contained" color="primary">生成二维码</Button>

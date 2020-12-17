@@ -1,0 +1,33 @@
+.DragPanle {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+
+    .col {
+        text-align: center;
+        background-color: #eee;
+        margin-right: 20px;
+        height: 500px;
+    }
+}
+
+.component-source {
+    width: 100%;
+
+    .component {
+        background-color: #fff;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+    }
+}
+
+.component-template {
+    width: 100%;
+    .box {
+        // display: flex;
+        .fisrtBut{
+            margin-left: 20px;
+        }
+    }
+}

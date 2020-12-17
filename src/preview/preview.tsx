@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import '../style/preview.scss'
 
 
@@ -7,15 +7,15 @@ interface previewProps {
 }
 const Preview: React.FC<previewProps> = (props) => {
     const {sendState} = props
-    const imgSchema = {
-        "type": "object",
-        "properties": {
+    // const imgSchema = {
+    //     "type": "object",
+    //     "properties": {
             
-        }
-    }
-    useEffect(() => {
-        console.log(sendState.bgColor)
-    },[])
+    //     }
+    // }
+    // useEffect(() => {
+    //     console.log(sendState.bgColor)
+    // },[])
     return (
         <div className='preview_container' >
             <h3>预览</h3>

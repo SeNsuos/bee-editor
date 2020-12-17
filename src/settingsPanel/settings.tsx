@@ -69,12 +69,12 @@ interface TabPanelProps {
   function randerColItem(config: any, field: string) {
     const {
 			label,
-			tip = '',
-			labelPlace = 'left',
-			span = 6,
-			type,
-			labelSpan = 4,
-			valueSpan = 20,
+			// tip = '',
+			// labelPlace = 'left',
+			// span = 6,
+			// type,
+			// labelSpan = 4,
+			// valueSpan = 20,
 			props,
     } = config
     // const [enumData, setEnumDate] = useState([]);
@@ -143,7 +143,7 @@ const Settings: React.FC<settingsProps> = (props) => {
     const [bgColor, setBgColor] = useState('#ffffff')
     useEffect(() => {
       setParent(bgColor);
-    },[bgColor])
+    })
     return (
         <div className='settings_container'>
             <h3>页面配置</h3>
