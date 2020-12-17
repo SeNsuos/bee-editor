@@ -176,7 +176,20 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "commitlint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeNsuos/bee-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeNsuos/bee-editor/issues"
+  },
+  "homepage": "https://github.com/SeNsuos/bee-editor#readme"
 }
