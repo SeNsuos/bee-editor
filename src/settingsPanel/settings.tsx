@@ -69,12 +69,6 @@ interface TabPanelProps {
   function randerColItem(config: any, field: string) {
     const {
 			label,
-			// tip = '',
-			// labelPlace = 'left',
-			// span = 6,
-			// type,
-			// labelSpan = 4,
-			// valueSpan = 20,
 			props,
     } = config
     // const [enumData, setEnumDate] = useState([]);
