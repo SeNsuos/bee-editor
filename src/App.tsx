@@ -3,6 +3,7 @@ import './App.css';
 import Preview from './preview/preview';
 import Setting from './settingsPanel/settings'
 import ToolBar from './toolBar/toolBar'
+import DargPanel from './dragPanel/dragPanel'
 
 function App() {
   const defaultState = {
@@ -16,6 +17,8 @@ function App() {
     <div className="App">
         <ToolBar />
         <div className='con_wrapper'>
+        <DargPanel />
+
           <Preview key={state.bgColor} sendState = {state} />
           <Setting setParent={(bgColor: any) => setState({bgColor: bgColor})} />
         </div>   
