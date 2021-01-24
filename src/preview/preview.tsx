@@ -20,7 +20,7 @@ const Preview: React.FC<previewProps> = (props) => {
         <div className='preview_container' >
             <h3>预览</h3>
             <div className='con_wrapper' style={{background: sendState.bgColor}}>
-                1
+                
             </div>
         </div>
     )
