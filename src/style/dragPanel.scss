@@ -2,13 +2,10 @@
     display: flex;
     flex-direction: row;
     width: 40vw;
-    height: 94vh;
-
+    min-height: 92vh;
     .col {
         text-align: center;
-        // background-color: #eee;
-        // margin-right: 20px;
-        height: 94vh;
+        height: 92vh;
         border-right: 1px solid #dddddd;
         h3 {
             width: 99%;
@@ -22,7 +19,6 @@
 
 .component-source {
     width: 100%;
-
     .component {
         background-color: #fff;
         width: 100%;
@@ -35,8 +31,6 @@
     width: 100%;
 
     .box {
-
-        // display: flex;
         .fisrtBut {
             margin-left: 20px;
         }
