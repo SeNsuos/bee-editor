@@ -1,7 +1,3 @@
-.App {
-  /* text-align: center; */
-
-}
 .con_wrapper{
   display: flex;
   justify-content: space-around;
@@ -49,6 +45,9 @@
 .toRight{
   margin-right: 20px;
 }
+/* .toTop{
+    margin-top: 20px;
+} */
 .flex{
   display: flex;
   align-items: center;

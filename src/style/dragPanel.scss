@@ -1,13 +1,22 @@
 .DragPanle {
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 40vw;
+    height: 94vh;
 
     .col {
         text-align: center;
-        background-color: #eee;
-        margin-right: 20px;
-        height: 500px;
+        // background-color: #eee;
+        // margin-right: 20px;
+        height: 94vh;
+        border-right: 1px solid #dddddd;
+        h3 {
+            width: 99%;
+            height: 70px;
+            margin: 0 auto;
+            line-height: 70px;
+            border-bottom: 1px solid #dddddd;
+        }
     }
 }
 
@@ -24,9 +33,11 @@
 
 .component-template {
     width: 100%;
+
     .box {
+
         // display: flex;
-        .fisrtBut{
+        .fisrtBut {
             margin-left: 20px;
         }
     }
